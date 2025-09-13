@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(3,200px);
+            grid-template-areas: 
+            'img1 img2 img3 img4 img4'
+            'img5 img6 img3 img7 img7'
+            'img8 img6 img9 img7 img7';
+            width: 95%;
+            gap: 10px;
+            margin: 20px auto;
+        }
+        .parent-item{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .parent-item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .img1{
+            grid-area: img1;
+        }
+         .img2{
+            grid-area: img2;
+        }
+         .img3{
+            grid-area: img3;
+        }
+         .img4{
+            grid-area: img4;
+        }
+         .img5{
+            grid-area: img5;
+        }
+         .img6{
+            grid-area: img6;
+        }
+         .img7{
+            grid-area: img7;
+        }
+         .img8{
+            grid-area: img8;
+        }
+         .img9{
+            grid-area: img9;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="parent-item img1"><img src="https://tse4.mm.bing.net/th/id/OIP.5QUc7YmvnceO-uF9WV66mwHaKm?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img2"><img src="https://tse4.mm.bing.net/th/id/OIP.a235lxI-E0642pny33SbpAHaKf?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img3"><img src="https://tse4.mm.bing.net/th/id/OIP.qIlDhOqM_PyjRnY5eSfUAAHaE7?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img4"><img src="https://tse2.mm.bing.net/th/id/OIP.Oa2CKduPGzXjPjjwXQFZswHaFj?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img5"><img src="https://tse4.mm.bing.net/th/id/OIP.L2m7cotRhnmrBAZQd1l27wHaK5?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img6"><img src="https://tse3.mm.bing.net/th/id/OIP.vFkYQPoEj6uUhcb00NOa2wHaFj?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img7"><img src="https://tse2.mm.bing.net/th/id/OIP.GvtSlfWFggi-iQ6HZ90R_wHaFj?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img8"><img src="https://tse1.mm.bing.net/th/id/OIP.Jd6sE4rBw9RNLQIEFzibdQHaJ4?pid=Api&P=0&h=180" alt=""></div>
+        <div class="parent-item img9"><img src="https://tse1.mm.bing.net/th/id/OIP.X9y0yG1GBu43tbwb1kD_RwHaEK?pid=Api&P=0&h=180" alt=""></div>
+
+    </div>
+</body>
+</html>
